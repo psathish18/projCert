@@ -1,3 +1,8 @@
-docker build -t devphp . 
-docker run -d -p 8000:80 devphp
-localhost:8080
+# docker build -t testphp . 
+# docker run -d -p 8000:80 --name testphp testphp 
+# localhost:8000
+
+
+# docker container stop  testphp
+# docker container rm  testphp
+# docker image rm  testphp
